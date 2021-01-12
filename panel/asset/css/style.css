@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../font/Vazir-Light.eot?#') format('eot'),
+        url('../font/Vazir-Light.woff') format('woff'),
+        url('../font/Vazir-Light.ttf') format('truetype');
+}
+body {
+    font-family: Vazir;
+    direction: rtl;
+    text-align: right;
+    background: #f5ecec;
+    font-size: 10pt;
+}
+.col-md-3,.col-md-9 {
+    padding: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .col-md-3 {
+        width: 30%;
+    }
+    .col-md-9 {
+        width: 70%;
+    }
+}
+#bar {
+    background: #fff;
+    width: 100%;
+}
+aside {
+    background: #fff;
+    height:850px;
+    width: 25%;
+    border-left: 1px solid #dcbdbd;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.profile {
+    padding: 10px 15px;
+    border-right: 1px solid #000;
+    width: 150px;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.profile img {
+    widows: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#message {
+    margin-top: 10px;
+}
+#message .fa-envelope {
+    font-size: 18pt;
+    color: #e7e7e7;
+}
+aside img {
+    margin-right: 40px;
+}
+aside hr {
+    border:1px solid #fff;
+    width: 80%;
+}
+ul#menu {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0;
+    width: 85%;
+    margin: 15px auto;
+}
+ul#menu li {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+ul#menu li a {
+    color: #870000;
+    text-decoration: none;
+    font-size: 11pt;
+}
+.dropdown-btn {
+    background: transparent;
+    color: #870000;
+    border:none;
+    padding: 5px;
+    width: 100%;   
+    text-align: right; 
+    font-size: 11pt;
+}
+.dropdown-container {
+    display: none;
+}
+.dropdown-container a {
+    text-decoration: none;
+    color: #870000;
+    display: block;
+    padding: 5px;
+}
+#btn-add {
+    cursor: pointer;
+    display: inline-block;
+    width: 25%;
+}
+.page-logo {
+    color: #fff;
+    font-size: 10pt;
+    border-radius: 2px;
+    background-image: linear-gradient(to left,red,darkred);
+    padding: 6px 10px;
+}
+
+#content {
+    width: 75%;
+    padding: 20px 0;
+}
+#course {
+    background: url('../img/box1.png');
+    width: 225px;
+    height: 158px;
+    border-radius: 2px;
+    padding: 15px;
+    color: #fff;
+    text-align: left;
+    font-size: 9pt;
+}
+#salary {
+    background: url('../img/box2.png');
+    width: 225px;
+    height: 158px;
+    border-radius: 2px;
+    padding: 15px;
+    color: #fff;
+    text-align: left;
+    font-size: 9pt;    
+}
+#intern {
+    background: url('../img/box3.png');
+    width: 225px;
+    height: 158px;
+    border-radius: 2px;
+    padding: 15px;
+    color: #fff;
+    text-align: left;
+    font-size: 9pt;    
+}
+.wow {
+    font-size: 20pt;
+    font-weight: bold;
+}
+.personal-pic {
+    width: 100px;
+    height: 100px;
+}
+#bar {
+    padding: 5px 0;
+}
+#bar img {
+    margin: 15px;
+}
+a#logout{
+    color: #aa0000;
+}
+a#logout .fa {
+    margin: 15px;
+    font-size: 15pt;    
+}
+#profile {
+    width: 100%;
+    background:  #aa0000;
+    padding: 15px 0;
+}
+#profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 75px;
+    margin-bottom: 15px;
+}
+#username {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+}

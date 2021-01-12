@@ -1,0 +1,68 @@
+#main {
+    padding: 5px 15px;
+}
+.card {
+    background: #fbfbfb;
+    border-radius: 3px;
+}
+#teacher-bg {
+    width: 100%;
+    height: 100px;
+    background: url('../img/91uCToMKQfL.png');
+}
+#teach {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid #ebeced;
+    margin-top: -50px;
+}
+#video {
+    width: 97.8%;
+}
+#comment-box, #comments {
+    width: 100%;
+}
+ul.timeline {
+    padding: 0;
+    list-style: decimal;
+    margin-right: 15px;
+}
+ul.timeline li {
+    margin-right: -17px;
+    margin-bottom: 25px;
+}
+.comment-body {
+    width: 100%;
+    background: #e8e8e8;
+    padding: 5px;
+}
+.comment-pic {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.comment-body table td {
+    vertical-align: top;
+}
+.box {
+    font-size: 15px;
+}
+.d-title {
+    font-size: 25px;
+    padding: 10px 5px;
+    width: 200px;
+    margin-right: 5px;
+}
+.detail-table {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.detail-table tr {
+    border-bottom: 1px dotted #e8e8e8;
+}
+.detail-table td {
+    padding: 12px 0;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <aside>
+                        <img src="img/logo.png">
+                        <hr>
+                        <ul id="menu">
+                            <li><a href="dashboard.html"><i class="fa fa-dashboard"></i> داشبورد</a></li>
+                            <li><a href="#"><i class="fa fa-money"></i> شهریه</a></li>
+                            <li><a href="#"><i class="fa fa-book"></i> دوره های ثبت نام شده</a></li>
+                            <li><a href="#"><i class="fa fa-check-square-o"></i> آزمون</a></li>
+                            <li><a href="#"><i class="fa fa-key"></i> تغییر کلمه عبور</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-md-9">
+                    <!-- Top Bar -->
+                    <div class="text-left" id="bar">
+                        <div class="dropdown show">
+                            <div class="profile dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/profile.jpeg">
+                                اسحاق جباری
+                            </div>                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="profile.html">پروفایل</a>
+                                <a class="dropdown-item" href="#">خروج</a>
+                            </div>
+                        </div>
+                        <div id="message">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="container-fluid content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong>ویرایش پروفایل</strong>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">    
+                                <form>
+                                    <div class="form-group">
+                                        نام و نام خانوادگی:
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        نام پدر:
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        شماره شناسنامه:
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        محل تولد:
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        شماره تماس:
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        عکس پرسنلی:
+                                        <input type="file" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="ویرایش اطلاعات" class="btn btn-success">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JS -->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>

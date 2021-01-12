@@ -1,0 +1,54 @@
+#form {
+    width: 60%;
+    margin: 0 auto;
+}
+.title {
+    display: block;
+    font-size: 20pt;
+    text-align: center;
+}
+.des {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+
+}
+#showpass {
+    float: left;
+    margin-top: -25px;
+    cursor: pointer;
+}
+#hide {
+    display: none;
+}
+#google {
+    overflow: hidden;
+}
+#icon {
+    float: right;
+    background: #aa0000;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 20pt;
+}
+#google span{
+    background: #680101;
+    color: #fff;
+    padding: 16px 0;
+    width: 90%;
+    float: right;
+}
+.btn-success {
+    width: 50%;
+    border-radius: 0;
+}
+a#forget {
+    padding: 0 70px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+p.error {
+    font-weight: bold;
+    color: #870000;
+}
